@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="estilos.css"/>
+    <title>Formulario de Inscripcion</title>
+</head>
+<body>
+    <h1>Formulario de Inscripcion</h1>
+    <hr>
+    <form action="#">
+        <fieldset>
+            <legend>Ingresa tus Datos</legend>
+            <div>
+                <label for="usuario">Nombre:</label>
+                <input id="usuario" type="text" name="usuario"
+                    size="25" maxsize="40">
+            </div><br>
+            <div>
+                <label for="email">Direccion email:</label>
+                <input id="email" type="text" name="email"
+                size="25" maxsize="40">
+            </div><br>
+            <div>
+                <label for="Especialidad">Especialidad:</label>
+                <select name="Especialidad">
+                    <option value="CT">Construcción</option>
+                    <option value="E">Electronica</option>
+                    <option value="L">Logistica</option>
+                    <option value="CB">Contabilidad</option>
+                    <option value="PIA">Producción Industrial de Alimentos</option>
+                    <option value="P">Programación</option>
+                    <option value="" selected="selected">Selecciona Especialidad...</option>
+                </select>
+            </div><br>
+            <div>Turno: <br>
+                <input type="radio" id="Matutino" name="Turno" value="Matutino">
+                <label for="Matutino">Matutino</label><br>
+                <input type="radio" id="Vespertino" name="Turno" value="Vespertino">
+                <label for="Vespertino">Vespertino</label><br>
+            </div><br>
+            <div>Semestre: <br>
+                <input type="checkbox" id="1°" name="Semestre" value="1°">
+                <label for="1°">1° Semestre</label><br>
+                <input type="checkbox" id="2°" name="Semestre" value="2°">
+                <label for="2°">2° Semestre</label><br>
+                <input type="checkbox" id="3°" name="Semestre" value="3°">
+                <label for="3°">3° Semestre</label><br>
+                <input type="checkbox" id="4°" name="Semestre" value="4°">
+                <label for="4°">4° Semestre</label><br>
+                <input type="checkbox" id="5°" name="Semestre" value="5°">
+                <label for="5°">5° Semestre</label><br>
+                <input type="checkbox" id="6°" name="Semestre" value="6°">
+                <label for="6°">6° Semestre</label><br>
+            </div><br>
+            <div>Sexo: <br>
+                <input type="radio" id="masculino" name="sexo" value="masculino">
+                <label for="masculino">Masculino</label><br>
+                <input type="radio" id="femenino" name="sexo" value="femenino">
+                <label for="femenino">Femenino</label><br>
+            </div><br>
+            <div>Estoy de Acuerdo con los <a href="../reference/uri-url.html">Términos y condiciones</a> </div><br>
+            <div>
+                <input type="submit" name="submit" value="Enviar informacion">
+                <input type="reset" name="reset" value="Limpiar formulario">
+            </div><br>
+            <div>Ricardo Arturo Ponce Trujillo 5°F</div><br>
+        </fieldset>
+    </form>
+</body>
+</html>

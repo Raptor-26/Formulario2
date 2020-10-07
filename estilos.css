@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+    color: #FFF;
+    background-color: rgb(16, 57, 83);
+    text-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px;
+    -webkit-border-radius: 40px;
+    border-radius: 40px;
+    -webkit-box-shadow: 4px 5px 14px 2px #000000; 
+    box-shadow: 4px 5px 14px 2px #000000;
+    
+}
+
+body{
+    background-image: url("background.png\'");
+}
+
+form{
+color: rgb(0, 0, 0);
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif  ;
+font-size: 20px;
+background: #0966A4;
+background: -moz-linear-gradient(centrar, #0966A4 0%, #4CA6CB 48%, #123F75 100%);
+background: -webkit-linear-gradient(centrar, #0966A4 0%, #4CA6CB 48%, #123F75 100%);
+background: linear-gradient(to right, #0966A4 0%, #4CA6CB 48%, #123F75 100%);
+text-align: justify;
+padding-top: 20px;
+padding-right: 30%;
+padding-bottom: 20px;
+padding-left: 30%;
+-webkit-border-radius: 19px;
+border-radius: 19px;
+-webkit-box-shadow: 4px 5px 14px 2px #000000; 
+box-shadow: 4px 5px 14px 2px #000000;
+}
+
+legend{
+    color: rgb(28, 83, 117);
+    font-size: 30px;
+}
